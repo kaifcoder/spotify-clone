@@ -76,7 +76,7 @@ const UploadModal = () => {
         });
       if (supabaseError) {
         setIsLoading(false);
-        toast.error("something went wrong");
+        toast.error("something went wrong uploading song");
       }
       setIsLoading(false);
       router.refresh();
@@ -84,7 +84,9 @@ const UploadModal = () => {
       reset();
       uploadModal.onClose();
     } catch (error) {
-      toast.error("something went wrong");
+      toast.error("something went wrong error occured");
+      reset;
+      return;
     }
   };
   return (
@@ -106,7 +108,7 @@ const UploadModal = () => {
         <Input
           id="author"
           disabled={isLoading}
-          {...register("Author", {
+          {...register("author", {
             required: true,
           })}
           placeholder="Author name"
