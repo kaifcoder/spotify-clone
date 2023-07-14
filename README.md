@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone (Next.Js Web App)
 
-## Getting Started
+In this project, I have built a Spotify Clone App using nextjs and supabase. Nextjs is a React framework that enables fast and easy web development. Supabase is an open source alternative to Firebase that provides authentication, database, storage and real-time features. The app allows users to sign in with their Email and Password or github account, browse their songs, and play music. The app also syncs the user's data with supabase, so they can access their music from any device. The app also allow users to upload songs from there device. Search the Songs. 
 
-First, run the development server:
+## Technologies Used 
+  * Nextjs
+  * Supabase
+  * Next Auth
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screen Shots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="960" alt="image" src="https://github.com/kaifcoder/spotify-clone/assets/57701861/fcac31a7-dcf6-4e34-82fa-8164a898644c">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="960" alt="image" src="https://github.com/kaifcoder/spotify-clone/assets/57701861/b31f4e5e-ce98-408e-aa57-01d8810602fd">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img width="960" alt="image" src="https://github.com/kaifcoder/spotify-clone/assets/57701861/9ed569d0-543c-4bee-a2f0-74c5537d2c94">
 
-## Learn More
+<img width="960" alt="image" src="https://github.com/kaifcoder/spotify-clone/assets/57701861/4e749b97-33ae-4885-8c8b-b438f534e54a">
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="960" alt="image" src="https://github.com/kaifcoder/spotify-clone/assets/57701861/08fc1afe-207c-4506-94f7-03829cd23d8c">
